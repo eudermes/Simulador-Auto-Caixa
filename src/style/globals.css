@@ -1,0 +1,14 @@
+@import url("https://fonts.cdnfonts.com/css/futura-lt");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Futura LT", sans-serif;
+}
+
+.gradiente {
+  background: rgb(0, 76, 138);
+  background: linear-gradient(145deg, rgba(0, 101, 183, 1) 30%, rgba(39, 165, 176, 1) 100%);
+}
